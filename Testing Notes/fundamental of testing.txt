@@ -1,0 +1,529 @@
+Fundamental of testing
+evaluating the capability of system and determining whether the requirements are met or not of stakeholders
+
+- increased complexity
+- quality as competitive advantage
+- errors can be expensive
+
+
+10-50 defect per 1000 lines of codes
+
+why Error happens?
+- Human errors
+- deadline pressures
+- lack of experience
+- complexity
+
+error => defect => bugs (if goes line) => failure
+
+
+at failure state the end user witnesses a deviation fromt he expected behaviour of the system.
+
+error  => defect => failure (user witnesess only at this stage)
+
+
+death/injury
+environmental issues
+money
+nothing at all
+
+*****Risk****** 
+
+well designed testes and they all pass can reduce the risk
+level of risk associated with an application
+chance of something going wrong
+
+
+more complex => more risk => more testing required
+
+
+*******quality*****
+this can be increased by finding, fixing and successfully re-testing defects
+
+finding: testers
+fixing: developers
+retest : testers
+
+
+Quality for 6 factors:
+
+- Reliability
+- Usability
+- Efficiency
+- Maintainability (maintain and detects faults)
+- Portablity (change in requirements)
+- funcationality
+
+
+FRUEMP
+
+This is wrong!
+We test software to prove that it has no faults.
+
+
+what is testing
+
+Verification
+RIGHT system being developed by developers
+aimed at the evaluating the capabilities of a system.
+
+VAlidation
+right application for our customers
+
+
+Funcational testing
+what system to ensure it does and what it is supposed to do!
+based upon individual element of system and functions
+
+non Functional Testing
+how the overall system works
+can handel amount of people
+
+
+
+Dynamic and Static testing
+
+Dynamic: by running the software itself
+Static: carrying out the tests without executing the softwaare product
+(debugging and system requirements, document testing!)
+
+
+objectives of testing:
+find defects
+gain confidence
+information
+prevent errors
+
+requirements
+planning
+desinging
+devevlop
+test
+deployments
+maintain
+
+testing can be at different stages
+design: requirements
+development: bugging and everyting
+
+
+RISK determines what to TEST
+prioritisation can be done bbased upon risk
+
+resources, time and functionality can be used to negotiate with PMOs
+
+
+
+how much testing:
+risks involved
+quality 
+budget constraints
+time scales
+
+
+Testing:
+by testers
+it is not the ****responsiblity of a tester**** to fix defects or process why defects are occuring
+systemic process of finding and reporting defects within application
+
+
+defects finding is testing done by TESTERS
+Debugging:
+by developers (find out breakpoints and debugging process in Eclipse) ************
+process of identifying the cause of a defect in code through isolating it to specific function or component
+
+
+
+Testing about 
+
+
+
+when to stop?
+depends upon associated risk and factors
+
+
+
+
+General Testing principles
+**************DEEPCAT
+
+
+---- defect clustering
+complexity of code
+experience of staff
+80% can be found in 20% of code!
+
+
+----- exhaustive testing is impossible
+all possible scenario not possible!
+
+remeber to add VALUE by testing otherwise no point
+
+
+------ Early testing
+documentaiton/requirements/design testing
+cheaper at early stage
+
+
+---- Pesticide Paradox
+regressive testing 
+should keep up to date with the business objectives
+test may become outdated due to change in application
+
+
+Regression testing may no longer be relevant over time if the tests are not kept up to date with the business objectives
+
+
+----Testing is context dependent
+The amount and vigour of testing required depends on the application
+
+
+----Absence of Error Fallacy
+Just because we have executed all our tests and found no errors it does not mean that the system is ready for release
+
+
+----Testing shows presence of defects 
+but cannot prove the absence of all defects
+
+working system: a system where the next defect has not be yet been found
+
+
+folowing are various stages of TESTING process
+
+
+Planning and Control
+
+Determine what is going to be tested and how this willbe achieved
+testing plan/roadmap
+define exit criteria
+Control is an ongoing activity throughout the whole process which compares actual to 
+
+
+Design and Analysis
+design your test
+test conditions data and expected outcome
+priority of tests
+test environment should look like
+
+
+
+
+Implementation and Execution
+writing of full test cases
+execute and document
+Perform re-testing and log defects
+
+
+
+Evaluate Exit Criteria
+90%of my test successful
+our goal post to complete the testing
+writing up reports
+
+
+Test Closure
+clean up documentation
+selfreFlection
+
+
+TESTER!
+Professional pessimism 
+Critical eye 
+Attention to detail –
+Good communication skills –
+Curiosity – Testers 
+
+
+High Level of Independence between Developer and Tester!
+
+The further removed the tester is the higher the level of independence
+Independent testers can be more effective because they don’t have a bias towards the developer or the application
+
+
+Roger Fededer Tennis Pro
+requirements  ===> Acceptance
+Functional  ====> System Testing
+Technical  ===> Integration testing
+Program specification ==> Component testing
+
+
+
+
+Capability Maturity Model Integration (CMMI) –
+A framework that describes the key elements of an effective product development and maintenance process. The 
+
+
+different test levels
+
+Component (Program specificcation)
+Integration (technical specificaiton)
+System (functional)
+Acceptance (requirement)
+
+
+component 
+Unit testing
+normally by the developers
+unit, module and program testing
+
+
+Integration testing
+
+May include functional as well as non-functional testing. For example, performance testing.
+integration testing may include functional and non-functional testing (performance testing)
+types: Big Bang testing
+
+stubs required in integration testing (mocks) 
+
+top down approach of integration testing ==> integration testing => top level functionlities can be done and then stub out the low priority things!
+
+
+Top down integration
+Advantages
+Control structure is tested very often
+Can demonstrate the system early
+Disadvantages
+Details left until last
+Can be difficult to see the detailed output
+
+
+
+Bottom Up approach to integration testing
+
+major control problems found last
+top functionalities may not work and risk more 
+
+
+
+Integration testing
+Component Integration Testing
+(interaction between Interactions between software components
+ done after component testing)
+
+
+system Integration testing
+(interaction between different hardware and software, cross platform)
+
+
+
+========
+System Testing
+Concerned with the behaviour of the whole system (End to End/E2E Testing)
+Tests are at a higher level and based around requirements specifications, business processes and use cases
+Testing is both functional and non functional
+
+requires component testing before System
+
+Blackbox and whiteBox testing
+
+
+
+
+
+============
+Acceptance testing
+
+User acceptance testing
+validation comes in 
+customers' perspective come into picture
+
+types
+User Acceptance testing
+Contract and REgulation Accceptance Testing
+
+
+
+Operational Acceptance Testing
+disaster recovery
+
+
+Alpha Testing
+on site
+
+Beta Testing 
+field testing
+
+
+Testing Types
+
+-Functional Testing
+---Security testing (firewaalls, anti-theft protocols, fraud-monitoring tools 
+------Interoperability testing
+
+
+
+
+Non functional testing type
+Performance testing (Load, Stress, Volume)
+Usability testing
+Reliability testing
+Maintenance testing
+
+
+
+reTesting is also known as Confirmation Testing
+(regression test is good candidate for automation)
+regression tests same functionalities
+
+
+
+Maintenance Testing
+this is done in live environment
+
+Usability testing
+Reliability testing
+Maintenance testing
+
+
+Impact ====> Change
+
+Impact analysis decides which aspects of a system will be affected by a change
+This information can be used to determine what areas of the system need to maintenance tested
+impact analysis based upon RISK
+
+
+
+Regression testing is done in Test environment (including mockups)
+Maintenance testing is done in Live environment (actual objects/components)
+
+
+*******after release***** maintainance test
+read the question if anything in questions say after then only otherwise Maintenance testing is done
+though both results in pretty much same thing in impact analysis
+
+
+
+
+
+**********revision***********
+
+
+A software development process which is aimed at evaluating the capability of a system and determining whether or not it meets the requirements and needs of stakeholders  
+
+
+Testing is a part of s/w development process which is aimed at
+- evaluating the capability of a system (verification)
+- determining whether or not it meets the requirements and needs of stakeholders (validations)
+
+
+Humans can make errors
+
+
+Errors generated by humuns ===> which lead to defects in software  ===> which lead to failure (detected by users)!
+
+When executing the application, the end user witnesses a deviation from the expected behaviour of the system which may be considered as a failure (this is live application)
+
+
+Error ==> Dev phase
+Defect ==> Test phase
+Failure ==> Live phase
+
+
+defects must be caught in test phase and are expensive to deal with (death, envrionment, money)
+
+- testing important: quality as competative advantage, reputation, increased complexity 
+
+
+Quality
+
+reduce risk (This can be reduced if we execute well designed tests and they all pass)
+increased quality
+
+
+Quality criteria can be measured up using 
+
+FRUEMP
+functionality, Reliability, Usability, Efficiency, Maintainability, Portability, 
+
+
+
+
+
+
+Functionality: What does it do? what should it do?
+Reliability: System can maintain its services under defined conditions/defined period
+Usability: with regards to funcationality (ease of use for a given function).
+
+Efficiency: how much resources being used when providing functionality?
+Maintainability: easy to maintain? identify bugs and solve?
+Portability: can adopt to change in its environment?
+
+
+
+There are seven General Testing Principles DEEPTAT/DEEPCAT 
+
+
+
+Defect Clustering
+Exhaustive Testing is Impossible
+Early Testing
+Pesticide Paradox
+Testing is Context Dependent
+Absence of Errors Fallacy
+Testing Shows the Presence of Defects
+
+
+Planning and control 
+testing roadmap, exit criteria, Control is an ongoing activity throughout the whole process 
+
+Design and Analysis
+feasible, design (conditions, data, outcome), prioritise and decide about test environment?
+
+Implementation and Execution
+write & execute test cases 
+document outcome,defects and perform retesting
+
+Evaluate Exit criteria
+eg. 90% of tests should pass
+write up reports for management
+confidence improved?
+
+Test Closure
+retrospective analysis for next phase
+clean up documentation
+
+
+Component testing
+units/module/program testing units in isolation
+component testing requires Component, Detailed design and Code
+it can test Components, Programs,  Data conversion / migrations programs, Database modules
+
+
+Integration Strategies
+
+Big bang 
+combine all and should not be used
+
+Top down integration 
+needs stubs to simulate missing components, Stubs replaced called components, Stubs cannot call others components
+Control structure is tested very often
+
+
+Bottom up integration
+Lowest levels tested first and more thoroughly 
+
+
+Acceptance Testing
+This is typically the final stage of validation however it may occur at various parts of the life cycle
+customers walkthroughs, perform they own tests
+User Acceptance Testing: To ensure that the system is fit for use by business users
+
+requires: Test Basis, User requirements, System requirements, Use cases, Business processes
+Types of Acceptance Testing
+Alpha (onsite) Beta (remote) operational (disatster and other related) 
+
+
+Functional Testing
+Can be performed at all test levels
+Tests what the system does
+
+Security Testing
+Is a subset of functional testing
+Can include the testing of firewalls, anti-theft protocols, fraud-monitoring tools etc
+
+
+changes happen to system for many reasons
+Impact analysis can be used to determine what areas of the system need to maintenance tested
+Maintenance testing is LIVE whereas regression testing is NoN-LIVE
+
+

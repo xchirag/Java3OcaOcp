@@ -1,0 +1,88 @@
+ISTQB Testing Foundation Exam
+
+
+BCS (ISEB) ISTQB Testing Foundation Exam
+
+
+right answers:
+1 c
+2 B
+3
+
+As soon as possible in the development life cycle
+
+Re-testing ensures the original fault has been removed; regression testing looks for unexpected side-effects
+
+Faults in code are the most expensive to fix
+
+Developers
+
+
+
+Only test high-risk areas
+
+
+
+To prove that the software has no defects
+
+
+Testing quality attributes of the system including performance and usability
+
+
+
+1.	Early test design can prevent fault multiplication
+3.	Early test design can find faults
+4.	Early test design can cause changes to the requirements
+
+
+The system must allow a user to amend the address of a customer
+
+
+To determine how the existing system may be affected by changes
+
+
+Top-down integration testing
+
+
+The V Model
+
+
+Customers at their own site
+
+
+The Waterfall Model
+
+
+Wrong ones:
+3 D
+9 A
+
+
+Static testing is the manual examination (reviews) and tool driven analysis (static analysis) of the code or other project documentation, without the execution of the code. 
+
+
+Strategy
+	Review and contribute to test plans
+Planning
+	Analyse and review requirements for testability
+	Set up the test environment
+Execution
+	Prepare and create test data for use in test execution
+	Execute tests and log defects
+Approach
+	Write automated testing scripts and execute test suites
+
+
+Tester
+review/contribute to test plans and requirements for testability
+setting up test environment
+preparation of data 
+Execute tests and log defects
+
+
+gupta752127n99wn
+
+
+
+Planning is all about 
+It ensures that there is initially a list of tasks and milestones in a baseline plan to track progress against, as well as defining the shape and size of the test effort.

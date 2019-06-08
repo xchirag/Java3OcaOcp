@@ -1,0 +1,87 @@
+- Identify individual business requirements
+- Write one or more Test Conditions to cover each individual requirement
+- Prioritise Test Conditions
+- Write a Test Case for each Test Condition
+
+traceability helps in => impact analysis => requirement coverage => Linkage from requirement to test case 
+
+
+black box also known as Specification based testing
+- based upon analysis of specifications
+- can be functional and non-functional
+- of a component/system without reference to its internal structure
+
+Decision Table Testing
+
+
+
+White Box (Structural) Testing
+Documented procedure to derive and select test cases based on analysing the internal structure of a component/system.
+
+Also known as Structural based testing.
+
+
+
+
+
+Statement coverage
+Decision Decision coverage
+Condition testing
+Multi condition testing
+Modified condition coverage
+
+
+can be applied at: Component - Integration – System
+
+
+
+
+Error Guessing known as a Fault AttackOne way of doing this is : Exploratory Testing
+
+
+
+2 types of experience-based techniques 
+-Error Guessing
+-Exploratory Testing
+
+
+Which of the following is MOST important when deciding which testing technique to use?
+Test objectives
+
+
+
+The choice of which technique to use depends on:
+Test objectives
+Type and level of risk
+Time and budget
+Documentation available
+Knowledge of testers
+
+
+Tester tasks may be done by someone in another role such as:
+Developers (Component and Integration testing)
+Business Experts and users (Acceptance testing)
+Operators (Operational Acceptance Testing)
+
+
+Test leader may decide
+strategy, planning execution and overall approach 
+setup and implement configuration management techniques
+
+
+Test planning
+
+Risk, constraints, resources, criticality
+Test policy, scope, objective testablility
+
+
+- component - integration - System - Acceptance
+
+
+
+
+
+
+
+
+
