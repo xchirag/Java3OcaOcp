@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="false" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.fdmgroup.currency.controller.CurrencyConverterControllerImpl" 
+    project="CurrencyConverterNew" 
+    file="/CurrencyConverterNew/src/com/fdmgroup/currency/controller/CurrencyConverterControllerImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="203" y="130"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true" static="false"/>      
+      <operations public="true" package="false" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.fdmgroup.currency.controller.CurrencyConverterController" 
+    project="CurrencyConverterNew" 
+    file="/CurrencyConverterNew/src/com/fdmgroup/currency/controller/CurrencyConverterController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="123" width="285" x="521" y="75"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true" static="false"/>      
+      <operations public="true" package="false" protected="true" private="true" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.fdmgroup.currency.dao.CurrencyCoverterDaoImpl" project="CurrencyConverterNew" 
+    file="/CurrencyConverterNew/src/com/fdmgroup/currency/dao/CurrencyCoverterDaoImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="131" width="311" x="55" y="247"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true" static="false"/>      
+      <operations public="true" package="false" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="com.fdmgroup.currency.dao.CurrencyConverterDao" project="CurrencyConverterNew" 
+    file="/CurrencyConverterNew/src/com/fdmgroup/currency/dao/CurrencyConverterDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="288" x="542" y="246"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true" static="false"/>      
+      <operations public="true" package="false" protected="true" private="true" static="false"/>    
+    </display>  
+  </interface>  
+  <association id="5">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="6" name="dao"/>      
+      <multiplicity id="7" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <classifier-display autosize="false" stereotype="true" package="true" initial-value="false" signature="false" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="false" protected="true" private="true" static="false"/>    
+    <operations public="true" package="false" protected="true" private="true" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
