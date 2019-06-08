@@ -1,0 +1,28 @@
+a:link {
+	color:green;
+}
+
+a:hover {
+	color:red;
+}
+
+#anchorDiv{
+	margin-top: 1%;
+	margin-left: 25%;
+}
+
+.a-border{
+	border-width: thin;
+	border-color: black;
+	border-style: solid;
+	padding: 1% 2% 1% 2%;
+	
+}
+
+.createLog{
+	float: right;
+	width: 34%;
+	padding:5px;
+}
+
+

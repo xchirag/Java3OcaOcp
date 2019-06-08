@@ -1,0 +1,39 @@
+h1{
+	color:cyan;
+	background-color:black;
+	padding:3px;
+}
+
+#randomPara{
+	color:blue;
+	background-color:lightgray;
+	/*margin-left:15px; */
+	margin-right:35vw;  /*relative to viewpoint width */
+	margin-bottom:25vh;
+	margin-left:5%;
+	text-align:justify;
+}
+
+.demo {
+	background-color:blue;
+}
+
+#demo {
+	background-color:cyan;
+}
+
+#anc1{
+	color:green;
+}
+
+.float-right{
+	float:right;
+	width:75%;
+}
+.float-left{
+	float:left;
+	width:25%;
+}
+
+
+/* how to comment in CSS */

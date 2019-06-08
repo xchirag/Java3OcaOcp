@@ -1,0 +1,79 @@
+/* *************************************************************************************
+	One% CSS Grid - 12 Columns Fluid CSS Grid System
+	Why One% ? Let’s count ...
+		we have 12 columns (magic number divided by 2, 3, 4, 6)
+		for 12 columns we need 11 margins
+		so if we count margin 3%, then 3% * 11 margins = 33%
+		and if we count width of 1 column 5.5%, than 5.5% * 12 columns = 66%
+		in the end we have 33% + 66% = 99% aaand ???
+		1% is still here so that's the name - One%
+	2 starting options ? Let’s count a bit more ...
+		1200px - perfectly fits 1280 screens
+			12 columns
+			margin 3% / 36px (full-width)
+			col1 5.5% / 66px (full-width)
+		1000px - perfectly fits 1024 screens
+			12 columns
+			margin 3% / 30px (full-width)
+			col1 5.5% / 55px (full-width)
+*/
+ * {
+	box-sizing: border-box;
+ }
+
+ 
+ 
+ 
+/* *************************************************************************************
+ * Main container for all
+ */
+.page-container {
+	margin: 0 auto;
+	max-width: 1020px;
+}
+
+.row {
+	clear: both;
+	padding: 0 0 0 1%; /* THAT'S THE NAME ;) */
+}
+
+
+
+
+/* *************************************************************************************
+ * Common columns definitions
+ */
+.col {
+	float: left;
+	margin: 0 3% 2px 0;
+}
+
+.last-col {
+	margin: 0;
+}
+
+.col1 { width: 5.5%; }
+.col2 { width: 14%; }
+.col3 { width: 22.5%; }
+.col4 { width: 31%; }
+.col6 { width: 48%; }
+.col5 { width: 39.5%; }
+.col7 { width: 56.5%; }
+.col8 { width: 65%; }
+.col9 { width: 73.5%; }
+.col10 { width: 82%; }
+.col11 { width: 90.5%; }
+.col12 { width: 99%; margin: 0; }
+
+
+
+
+
+/* *************************************************************************************
+ * Styles to show boxes
+ */
+.box {
+	border: solid 2px black;
+	background: rgb(175,175,175);
+	text-align: center;
+}

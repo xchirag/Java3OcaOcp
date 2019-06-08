@@ -1,0 +1,177 @@
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+.anchorDiv{
+	background-color:lightgreen;
+	border: solid;
+	/*padding: 11px 11px 11px 11px;*/
+	padding: 1% 1% 1% 20%;
+}
+
+.innerAnchorDiv3, .innerAnchorDiv2, .innerAnchorDiv, .innerAnchorDiv4{
+	display: inline-block;
+	/*padding-right: 10%;*/
+	width: 20%;
+	/*background-color: purple;*/
+}
+
+.logo, .eliteChar, .createLog{
+	display: inline-block;
+	border: solid;
+}
+
+.name{
+	display: inline-block;
+	border: solid;
+	vertical-align: top;
+	margin-top: 5%;
+	
+}
+
+.createLognew{
+	display: inline-block;
+	border: solid;
+	width: 35%;
+	vertical-align: top;
+	margin-left: 33%;
+	margin-top: 2%;}
+
+.insideElite{
+	padding-left: 5%;
+	padding-top:10%;
+}
+.logo{
+	width: 20%;
+}
+.eliteChar{
+	width: 35%;
+	
+}
+.createLog{
+	width: 48%;
+	margin-left: 28%;	
+	
+}
+
+
+
+/* this is to create container and provide a professional look!*/
+.mainContainer{
+	width: 989px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 5px;
+	
+}
+
+html, body {
+    background-color: lightgray;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*hovring menu
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive
+
+*/
+
+
+#pad{
+	
+	
+}
+
+
+.scribble{
+	
+	margin-top:2%;
+}
+
+	
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+/* menu above completed*/
+
+
+dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+	margin-top: 2%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1c7d6c;
+    min-width: 160px;
+    box-shadow: lightgray;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

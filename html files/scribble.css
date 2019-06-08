@@ -1,0 +1,30 @@
+ul li{
+    display: block;
+    float: left;
+    border: 1px solid red;
+}
+
+drop-nav a{
+    display: block;
+    padding: 3px 6px 3px 6px;
+    color:blue;
+}
+
+ /*ul li a:hover {background: #f00;}
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover a {background: #f00;}
+  li:hover li a:hover {background: #000;}*/
+
+ul li a:hover {
+    background: green;
+}
+
+li:hover ul {
+display: block;}
+
+li:hover a {
+    background:green;
+}
+
+
