@@ -1,0 +1,11 @@
+how static makes it easy to call methods 
+: though not a good following up on SOLID
+: the methods should be distributed into various interfaces to make it easier to maintain and then reuse
+: testing in such case would be easier as well
+
+ was doing this mini project to find out usefulness of 
+*static variables and static methods
+*implement binary algorithm for string/string buffer permetuations
+*string to string buffer and reverse conversions
+*relevant functions
+*junit testing
